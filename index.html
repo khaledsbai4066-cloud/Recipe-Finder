@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recepie Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+     integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="container">
+        <header>
+        <h1><i class="fas fa-utensils"></i>Recipe Finder</h1>
+        <p>Find youre favirote meal's recipe around the world</p>
+        </header>
+
+        <p id="source">Recipes from <a href="https://www.themealdb.com">theMealDB</a>🧑‍🍳</p>
+        <div class="search-container">
+            <input type="text" placeholder="Search for meals OR Keywords..." id="search-input">
+            <button id="search-button">Search</button>
+        </div>
+
+        <div id="result-heading" class="hidden">
+            <p>searching results for "chicken..."</p>
+        </div>
+
+        <div id="error-container" class="hidden">
+            <p>no meals of name "khaleds" was found !</p>
+        </div>
+
+        <div class="meals-container" id="meals">
+
+            <!--<div class="meal">
+                <img src="k.jpeg">
+                <h3>claude</h3>
+                <div class="meal-category">
+                     <p id="categori">beef</p>
+                </div> 
+            </div> -->
+        </div>
+        <div id="details-container" class="hidden">
+           
+            <div>
+                <button id="back-btn">GO Back</button>
+            </div>
+            <div class="details-content">
+                <div class="meal-information">
+                     <img src="k.jpeg" alt="">
+                     <h3>chicken biriani</h3>
+                     <p id="categori">vegetables</p>
+                </div>
+                <div class="intructions">
+                    <h1>Instructions</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente modi quo quae esse odit praesentium rem reprehenderit eius omnis quos at ratione veritatis dolorum vel rerum, illo vitae impedit cumque.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolore non, illum assumenda possimus laudantium laborum itaque praesentium, dolorum dicta voluptate eum vel officiis repudiandae aperiam pariatur maxime voluptas incidunt.</p>
+                </div>
+                <div class="ingredients">
+                    <h2>Ingredients</h2>
+                    <ul class="ingredients-list">
+                        <li><i class="fas fa-check"></i>milk</li>
+                         <li><i class="fas fa-check"></i>mayonesse</li>
+                          <li><i class="fas fa-check"></i>litre</li>
+                           <li><i class="fas fa-check"></i>nhefief</li>
+                    </ul>
+               </div>
+                <div id="youtube-link">
+                    <a href="#"><i class="fab fa-youtube"></i>Watch Youtube</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
