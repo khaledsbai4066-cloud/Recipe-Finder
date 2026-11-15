@@ -173,6 +173,7 @@ button:active{
     margin-top: 5rem;
     background-color: rgb(42, 40, 40);
     padding: 40px 20px;
+    box-shadow: var(--shadow);
     border-radius: var(--border-radius);
 }
 .meal-information{
